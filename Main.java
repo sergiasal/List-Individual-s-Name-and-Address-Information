@@ -1,6 +1,20 @@
-git init
-git add Main.java
-git commit -m "Add Java application to print fictional person details"
-git branch -M main
-git remote add origin <Main.java>
-git push -u origin main
+
+public class Main {
+
+	    public static void main(String[] args) {
+	        // Define the fictional person's details
+	        String firstName = "Carlos";
+	        String lastName = "Moore";
+	        String streetAddress = "123 Eclipse Rd";
+	        String city = "Anytown";
+	        String zipCode = "12345";
+	        
+	        // Print each piece of information on a new line
+	        System.out.println("First Name: " + firstName);
+	        System.out.println("Last Name: " + lastName);
+	        System.out.println("Street Address: " + streetAddress);
+	        System.out.println("City: " + city);
+	        System.out.println("Zip Code: " + zipCode);
+	}
+
+}
